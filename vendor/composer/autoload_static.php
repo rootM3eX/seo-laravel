@@ -16,7 +16,7 @@ class ComposerStaticInit823057fb1b725b4b3c98edb5be51398e
     public static $prefixDirsPsr4 = array (
         'Maull\\Seo\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/packages/maull/seo/src',
         ),
     );
 

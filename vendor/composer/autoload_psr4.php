@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Maull\\Seo\\' => array($baseDir . '/src'),
+    'Maull\\Seo\\' => array($baseDir . '/packages/maull/seo/src'),
 );
