@@ -7,7 +7,17 @@ use Illuminate\Support\ServiceProvider;
 class SeoServiceProvider extends ServiceProvider
 {
     /**
-     * Bootstrap the application services.
+     * Register services.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        //
+    }
+
+    /**
+     * Bootstrap services.
      *
      * @return void
      */
@@ -18,15 +28,5 @@ class SeoServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/config/seo.php' => config_path('seo.php'),
         ]);
-    }
-
-    /**
-     * Register the application services.
-     *
-     * @return void
-     */
-    public function register()
-    {
-        //
     }
 }
